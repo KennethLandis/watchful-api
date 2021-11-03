@@ -1,0 +1,30 @@
+{"level":"error","message":"Cannot read property 'select' of undefined"}
+{"level":"error","message":"Cannot read property 'select' of undefined"}
+{"level":"error","message":"Cannot read property 'select' of undefined"}
+{"level":"error","message":"ClientsService.getById is not a function"}
+{"level":"error","message":"Cannot read property 'from' of undefined"}
+{"level":"error","message":"Cannot read property 'select' of undefined"}
+{"level":"error","message":"select * from \"clients\" where \"name\" = $1 limit $2 - column \"name\" does not exist"}
+{"level":"error","message":"client_name is not defined"}
+{"level":"error","message":"client_name is not defined"}
+{"level":"error","message":"client_name is not defined"}
+{"level":"error","message":"client_name is not defined"}
+{"level":"info","message":"Client with id 3 created"}
+{"level":"error","message":"select * from \"habits\" where \"client_id\" = $1 - relation \"habits\" does not exist"}
+{"level":"error","message":"Cannot read property 'map' of undefined"}
+{"level":"error","message":"Cannot read property 'map' of undefined"}
+{"level":"error","message":"movies is not defined"}
+{"level":"error","message":"serializeMovies is not defined"}
+{"level":"error","message":"(intermediate value).catch is not a function"}
+{"level":"error","message":"(intermediate value).catch is not a function"}
+{"level":"error","message":"select * from \"movies\" where \"client_id\" = $1 - invalid input syntax for integer: \"tt0241527\""}
+{"level":"error","message":"select * from \"movies\" where \"client_id\" = $1 - invalid input syntax for integer: \"tt0241527\""}
+{"level":"error","message":"select * from \"movies\" where \"client_id\" = $1 - invalid input syntax for integer: \"movie_id&=tt0241527\""}
+{"level":"error","message":"delete from \"movie\" where \"id\" = $1 - relation \"movie\" does not exist"}
+{"level":"error","message":"delete from \"movie\" where \"id\" = $1 - relation \"movie\" does not exist"}
+{"level":"error","message":"delete from \"movie\" where \"movie_id\" = $1 - relation \"movie\" does not exist"}
+{"level":"info","message":"Movie with id tt0241527 deleted."}
+{"level":"error","message":"select * from \"movies\" where \"client_id\" = $1 - invalid input syntax for integer: \"tt0241527\""}
+{"level":"info","message":"Movie with id tt0241527 deleted."}
+{"level":"error","message":"HabitsService is not defined"}
+{"level":"info","message":"Movie with id tt0120737 created"}
