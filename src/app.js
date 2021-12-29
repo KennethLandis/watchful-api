@@ -7,6 +7,7 @@ const { NODE_ENV } = require('./config');
 const errorHandler = require('./error-handler');
 const clientsRouter = require('./clients/clients-router');
 const moviesRouter = require('./movies/movies-router');
+const {CLIENT_ORIGIN} = require('./config');
 
 const app = express();
 
@@ -15,7 +16,7 @@ app.use(morgan((NODE_ENV === 'production') ? 'tiny' : 'common', {
   }))
 
 app.use(helmet());
-app.use(cors());
+app.use(cors({origin: CLIENT_ORIGIN}));
 
 app.use(clientsRouter)
 app.use(moviesRouter)
