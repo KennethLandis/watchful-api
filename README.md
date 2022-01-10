@@ -1,26 +1,39 @@
-# Express Boilerplate!
+Watchful API
 
-This is a boilerplate project used for starting new projects!
+Created Movie reminder app with custom server
 
-## Set up
+Summary: Custom API hosted on Heroku to connect to Watchful app frontend.  Created endpoints to store users and passwords as well as track movies that are added or deleted to help users keep track of titles they are keen to revisit in the future.  
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+Screenshot: ![image](https://user-images.githubusercontent.com/67128061/148728118-ca2d93e0-d102-42d9-be92-9b6f8aa2c2ca.png)
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+Live link: https://watchlist-app.vercel.app/
 
-## Scripts
+Server Link: https://secret-reaches-45778.herokuapp.com
 
-Start the application `npm start`
+Technology: This app was built using React Html Css Javascript jQuery Express Node.js PSQL
 
-Start nodemon for the application `npm run dev`
+App github: https://github.com/KennethLandis/watchlist-app
 
-Run the tests `npm test`
+Documentation
 
-## Deploying
+Routes and Endpoints
 
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's main branch.
+The watchful-api was written with a clients and a movies router built in with endpoints up date the two tables.
+The "base url" + /clients route will allow you to GET a list of users or target a single by ID as well as POST a new user.
+Each client posted will need to be serialized to prevent malicious scripting.
+
+GET all users
+
+"base url/clients"
+
+GET user by Name
+
+"base url/clients/{Name param}"
+
+POST user
+
+"base url/clients" including a req body with a client_name="" and user_password="".
+
+We also include a route for manipulating the habits for each user to personalize their experience with the app.
+
+These include a GET | POST | DELETE option targeting the movies by client id in the relational database. Each movie needs to be serialized to protect against malicious scripting.
