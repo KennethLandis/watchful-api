@@ -28,3 +28,43 @@
 {"level":"info","message":"Movie with id tt0241527 deleted."}
 {"level":"error","message":"HabitsService is not defined"}
 {"level":"info","message":"Movie with id tt0120737 created"}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"error","message":"Client with name 2 not found."}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"error","message":"Client with name 1 not found."}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"error","message":"Client with name 1 not found."}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"error","message":"Client with name 1 not found."}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"error","message":"Client with name 2 not found."}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"error","message":"Client with name 1 not found."}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"info","message":"Movie with id tt0241528 created"}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"info","message":"Movie with id tt0241528 created"}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"info","message":"Movie with id tt0241528 created"}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"info","message":"Movie with id tt0241528 created"}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"info","message":"Movie with id tt0241528 created"}
+{"level":"error","message":"Client with name 6 not found."}
+{"level":"info","message":"Client with id 1 created"}
+{"level":"info","message":"Movie with id tt0241528 created"}
+{"level":"info","message":"Movie with id tt0241527 deleted."}
